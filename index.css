@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+.logo {
+    
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.logo img {
+    width: 70%;
+}
+
+.pages{
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+   }
+.pages h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contactButton{
+    margin-right: 110px;
+    margin-top: 20px;
+    width: 150px;
+    
+}
+button{
+    background: linear-gradient(to right, #54D0E3, #8CE2B2); 
+    width: 150px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+  
+  
+}
+
+hr {
+    margin-top: 10px;
+    background-color: #00191E;
+    height: 4px;
+    width: 100%;
+}
+.hamburger img{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    
+    .pages h2{
+        width: 100%;
+        font-size: 20px; 
+       margin-bottom: 3px;
+       display: flex;
+    }   
+   }
+
+@media screen and (max-width: 425px){
+    .pages {
+        display: none;
+    }
+    
+    Button{
+        display: none;
+    }
+}
