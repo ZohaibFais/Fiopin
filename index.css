@@ -282,12 +282,11 @@ hr {
     margin-top: 30px;
     margin-left: 70px;
     width: 40%;
-    background: burlywood;
     height: 400px;
 }
 .picture2 img{
     width: 80%;
-    height: 400px;
+    height: 300px;
     padding-left: 30px;
 }
 .written{
@@ -297,7 +296,7 @@ hr {
     margin-left: 20px;
 }
 .written h1{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .written h3{
@@ -309,17 +308,238 @@ hr {
     }
     .picture2{
         width: 80%;
-        height: 400px;
         margin-left: 40px;
     }
     .picture2 img{
         width: 100%;
         padding-left: 0px;
+        height: 300px;
     }
     .written{
         width: 100%;
-        /* background: darkgray; */
-        height: 400px;
         margin-left: 40px;
     }
+    .written h1{
+        margin-top: -30px;
+    }
+}
+
+.waitlist{
+    width: 100%;
+    /* background: blue; */
+    margin-top: 20px;
+    display: flex;
+}
+.waitlistText{
+    width: 50%;
+    padding-left: 90px;
+}
+.waitlistText h1{
+    font-size: 35px;
+    
+}
+.waitlist .info h4{
+    font-size: 18px;
+
+}
+.waitlistText .join button{
+    width: 70%;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.waitlistImg{
+    width: 50%;
+    /* height: 400px; */
+    /* background: black; */
+}
+.waitlistImg img{
+    width: 50%;
+    height: 300px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width:780px) {
+    .waitlistImg img{
+        height: 275px;
+    }
+    .waitlistText h1{
+        font-size: 30px;
+    }    
+    .waitlist .info h4{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:430px) {
+    .waitlist{
+        margin-top: 300px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .waitlistText{
+        width: 100%;
+        /* background: olive; */
+        padding-left: 40px;
+    }
+    .waitlistText h1{
+        font-size: 25px;
+       
+    }
+     .waitlistImg {
+        width: 100%;
+        padding-top: 30px;
+        /* margin-left: 20px; */
+        /* background: violet; */
+    }
+    .waitlistImg img{
+        width: 70%;
+        /* margin-left: 20px; */
+        /* background: lawngreen; */
+        text-align: center;
+    }
+   
+}
+
+.adopters{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+.adoptersImg{
+    width: 50%;
+}
+
+.adoptersImg img{
+    width: 70%;
+    height:  300px;
+    padding-top: 27px;
+    margin-left: 15%;
+}
+.adoptersText{
+    width: 50%;
+}
+.adoptersText .heading{
+    width: 90%;
+    padding-top: 27px;
+    padding-left: 50px;
+    font-size: 23px;
+}
+.adoptersText .info{
+    width: 90%;
+    padding-left: 50px;
+    color: black;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 780px) {
+    .adoptersText .heading {
+        width: 100%;
+        font-size: 18px;
+    }
+    .adoptersText .info{
+        width: 90%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .adopters{
+        flex-wrap: wrap;
+    }
+    .adoptersImg{
+        width: 100%;
+    }
+    .adoptersText{
+        width: 100%;
+    }
+    .adoptersText .heading{
+        padding-left: 50px;
+        font-size: 17px;
+    }
+    .adoptersText .info{
+       width: 90%;
+        padding-left: 50px;
+        color: black;
+        font-size: 15px;
+    }
+    
+}
+
+.areas{
+    width: 100%;
+    /* background: orangered; */
+    margin-top: 20px;
+    display: flex;
+}
+.areas .areasText{
+    width: 50%;
+    /* background: blue */
+}
+.areasText .heading{
+    width: 100%;
+    /* background: forestgreen; */
+}
+.areasText .heading h1{
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.areasText .info{
+    width: 100%;
+    /* background: navajowhite; */
+    margin-top: 20  px;
+}
+.areasText .info p{
+    padding-left: 100px;
+    font-size: 20px;
+}
+.areasImg{
+    width: 50%;
+    /* background: hotpink; */
+}
+.areasImg img{
+    padding-right: 30px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .areasText .info p{
+        padding-left: 100px;
+        font-size: 16px;
+    }
+    .areasText .heading h1{
+        padding-left: 100px;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    .areas{
+        flex-wrap: wrap;
+    }
+    .areas .areasText{
+        width: 100%;
+    }
+    .areasText .heading h1{
+        padding-left: 50px;
+        font-size: 25px;
+    }
+    .areasText .info p{
+        padding-left: 50px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .areasImg{
+        width: 100%;
+    }
+    .areasImg img{
+        padding-right: 30px;
+        width: 100%;
+        padding-left: 50px;
+    }
+    
 }
