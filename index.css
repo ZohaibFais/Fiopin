@@ -874,7 +874,7 @@ hr {
 
     .lastWaitList{
         width: 100%;
-        height: fit-content;
+        height: 300px;
     }
     .right{
         visibility: hidden;
@@ -887,12 +887,15 @@ hr {
     }
     .head{
         margin-left: 50px;
+        margin-top: 20px;
     }
     .para{
-        margin-left: 0px;
+        margin-left: 30px;
+        margin-top: 80px;
     }
     .lastButton{
-        margin-left: 95px;
+        margin-top: 170px;
+        margin-left: 120px;
     }
 }
 .footer{
@@ -948,7 +951,7 @@ hr {
 
 @media screen and (max-width:430px) {
     .footer{
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .policies{
         width: 55%;
